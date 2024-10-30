@@ -1,0 +1,43 @@
+@media (max-width:600px) {
+    .box{
+        width: 400px;
+        height: 700px;
+    }
+    .images{
+       width: 400px;
+       height: 630px;
+       overflow: none;
+       flex-wrap: wrap;
+    }
+    h2{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3rem;
+        color: rgba(195, 54, 125, 0.807);
+    }
+    .container{
+        position: relative;
+        height: 880px;
+        background-color: red; /* For browsers that do not support gradients */
+        background-image: linear-gradient(red, yellow);
+    }
+    button{
+        margin-top: 40px;
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+        width: 400px;
+        text-decoration: none;
+        text-align: center;
+        background-color: rgb(97, 97, 142);
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+}
+
+ 

@@ -1,0 +1,26 @@
+@media (max-width:600px) {
+    .box{
+        width: 400px;
+        height: 800px;
+    }
+    .images{
+       width: 400px;
+       height: 700px;
+       overflow: none;
+       flex-wrap: wrap;
+    }
+    h2{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 3rem;
+        color: rgba(195, 54, 125, 0.807);
+    }
+    .container{
+        margin-top: 100px;
+        position: relative;
+        height: 800px;
+    }
+    
+}
+
+ 
